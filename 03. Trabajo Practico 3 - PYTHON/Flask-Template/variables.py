@@ -16,7 +16,8 @@ def user(name="Mirta"): #Inicializamos Mirta por defaul
     #Le pasamos el parámetro al método render template
     return render_template("user.html", name=name, age=age, list=my_list)
 
-app.run()
+if __name__ =='__main__':
+    app.run(debug = True, port= 8000)
 
 
 
