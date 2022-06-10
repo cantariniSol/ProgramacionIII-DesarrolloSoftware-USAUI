@@ -1,0 +1,79 @@
+body{
+    background: rgb(255, 246, 116)
+}
+.contenido {
+    margin-left: 18%;
+    padding: 20px 1px;
+    height: 100px;
+}
+
+.titulo_ejercicio{
+    color: rgb(127, 250, 70);
+    text-decoration: underline;
+    text-align: center;
+}
+/* ==================== Estilos para el ejercicios 1 ================================*/
+#titulo-1{
+    color:rgb(83, 64, 102);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#texto-1{
+    color: rgb(83, 64, 102);
+}
+#lista-nav-1{
+    color: rgb(83, 64, 102);
+}
+
+/* ==================== Estilos para el ejercicios 3 ================================*/
+#texto-3a, #texto-3f{
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: center;
+}
+
+#texto-3b{
+    color: rgb(32, 54, 151);
+    font-size: 20px;
+}
+#texto-3c{
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    display:inline-block;
+    width: 56%;
+    height: 40%;
+}
+#texto-3d{
+    font-style: italic;
+    font-size: 25px;
+}
+#span-3d{
+    text-decoration:underline;
+}
+#texto-3e{
+    color:rgb(187, 14, 14);
+    font-size: 30px;
+    font-weight: bold;
+}
+/* ==================== Estilos para el ejercicios 4 ================================*/
+.titulo-4{
+    color:rgb(187, 14, 14);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+.item-4{
+    color:rgb(13, 13, 128);
+}
+.span-4a{
+    color:rgb(124, 175, 48);
+}
+.span-4b{
+    color: rgb(13, 13, 128);
+}
+.texto-4{
+    color: rgb(13, 13, 128);
+}
+.span-txt-4{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); 
+}
