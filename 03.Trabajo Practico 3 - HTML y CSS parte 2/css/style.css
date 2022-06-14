@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+}
+
+/* ==================== NAVBAR =================================== */
+.ul-navbar{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width:20%;
+    background-color: #4B8673;
+    position:fixed;
+    height: 100%;
+    overflow: auto;
+}
+li .a-navbar{
+    display:block;
+    color: #F5DF99;
+    padding: 12px 16px;
+    text-decoration:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+li #active{
+    background-color: #5FD068;
+    color: #F6FBF4;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;  
+    letter-spacing: 2px;
+}
+
+li .a-navbar:hover:not(#active){
+    background-color: #F6FBF4;
+    color: #4B8673;
+    letter-spacing: 2px;
+}   
+/* ======================== SECCIÓN CONTAINER =================================== */
+.container{
+    margin-left:20%;
+}
+.titulo-num-ejercicio{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #F5DF99;
+    background-color: #4B8673;
+    font-weight: 500;
+    padding: 12px;
+    letter-spacing: 2px;
+    margin: 0px;
+}
+
+/* ======================== SECCIÓN TABLA =================================== */
+table{
+    margin: 5%;
+    text-align: center;
+    border: 5px solid #5FD068;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+   
+}
+#celda-1{
+    background-color: #e02121;
+}
+
+.tabla-2a{
+    border: 2px solid #5FD068;
+    border-collapse: separate;
+}
+.tabla-2b{
+    margin-left: 65%;
+}
+
+.tabla-3{
+    border-collapse: separate;
+    border: 2px solid #5FD068;
+}
+/* ========================== SECCIÓN MAQUETADO DE PÁGINAS ====================== */
+
+/* ----------- Ejercicio 8 ---------------- */
+.cabecera-8{
+    font-size: 30px;
+    background-color: #FF1700;
+    color:#F6FBF4;
+    font-weight: 600;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.nav-8{
+    margin:10px;
+}
+
+.nav-8 ul{
+    border-radius: 10px;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color: #FF8E00;
+    overflow: hidden; 
+}
+.nav-8 li{
+    float:left;
+    margin-left: 10%;
+}
+.nav-8 a{
+    display:block;
+    color:#F6FBF4;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.nav-8 a:hover{
+    letter-spacing: 2px;
+    background-color: #0E49B5;
+}
+
+.section-8{
+    background-color: #06FF00;
+    position:relative;
+    float: left;
+    width: 73%;
+    height:auto;
+    margin: 5px;
+    border-radius:20px;
+}
+
+.aside-8{
+    background-color: #FFE400;
+    position:relative;
+    float:right;
+    width:25%;
+    height:auto;
+    margin: 5px;
+    border-radius: 20px;
+}
+.aside-8 h2{
+    margin:2px;
+    padding-left: 20px;
+}
+.aside-8 ul{
+    list-style-type: none;
+    margin:0px;
+    padding-left:20px;
+}
+.aside-8 ul li {
+    padding:5px;
+}
+.footer-8{
+    display:flex;
+    justify-self: end;
+    width: 1030px;
+    height: 20px;
+    background-color: #FF005C;
+    color:#F6FBF4;
+    padding: 20px;
+    border-radius: 18px;
+}
+/* ----------- Ejercicio 9---------------- */
+.body-9{
+    background-image: url(https://d3ugyf2ht6aenh.cloudfront.net/stores/870/449/products/ladrillo-rosa1-36b3082f6f7b6e3d3615879196075168-1024-1024.jpg);
+}
+
+#section-9{
+    position: relative;
+}
+.cabecera-9{
+    position: absolute;
+    padding-left: 25px;
+    width:75%;
+    left:4%;
+    font-family: 'Cookie', cursive;
+    font-size: 60px;
+    background-color: #737dda57;
+}
+
+.titulo-9a{
+    position: absolute;
+    padding-left: 25px;
+    width: 75%;
+    top:66px;
+    left: 4%;
+    font-family: 'Cookie', cursive;
+    font-size: 60px;
+    background-color: #737dda57;
+}
+
+.titulo-9b{
+    position: absolute;
+    padding-left: 25px;
+    width: 75%;
+    top: 132px;
+    left: 4%;
+    font-family: 'Cookie', cursive;
+    font-size: 60px;
+    background-color: #e2e2e7e5;
+}
+.text-9{
+    position: absolute;
+    padding:40px;
+    width: 70%;
+    top: 229px;
+    left: 4%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: #7d7d9bd7;
+}
+.titulo-9c{
+    position: absolute;
+    padding-left: 25px;
+    width: 75%;
+    top: 463px;
+    left: 4%;
+    font-family: 'Cookie', cursive;
+    font-size: 60px;
+    background-color: #737dda57;
+}
+
+/* ----------- Ejercicio 10---------------- */
+
+.cabecera-10{
+    background-color: #A05344;
+    margin:0;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color:#F6FBF4;
+}
+.nav-10 ul{
+    list-style-type:none;
+    margin:0;
+    padding-left: 0;
+    width: 15%;
+    height: 100%;
+    position:absolute;
+    background-color: #E79E4F;
+    color: #F6FBF4;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+.nav-10 ul li{
+    text-align: center;
+    border-bottom: 1px solid #682C0E;
+}
+
+.nav-10 ul li a{
+    display:block;
+    color:#F6FBF4;
+    padding:10px;
+    text-decoration: none;
+    margin:0px;
+}
+
+.nav-10 a.active{
+    background-color: #e02121;
+    margin:0;
+}
+
+.nav-10 a:hover:not(.active){
+    background-color: #e02121;
+}
+
+.section10{
+    margin-left:16%;
+    position: absolute;
+    width: 500px;
+}
+.section10 h2{
+    font-size: 40px;
+    margin:0;
+}
+.aside-10{
+    position:absolute;
+    left: 550px;
+    width: 300px;
+    top:0px;
+    height: 110%;
+    background: #E79E4F;
+    padding:10px;
+}
+ 
+
+.footer-10{
+    background-color: #F9E0AE;
+    width: 97%;
+    position:relative;
+    top:520px;
+    padding:20px;
+    text-align: center;
+}
+
+/* ----------- Ejercicio 11---------------- */
+.header-11{
+    display:flex;
+    margin:0;
+}
+.titulo-11{
+    display: inline-block;
+    width: 100%;
+    background-color: #CC9C75;
+    padding: 25px;
+    margin:0px;
+    font-size: 40px;
+    color:#F6FBF4;
+}
+
+.section-11{
+    display:flex;
+    margin:0;
+}
+
+.aside-11{
+    background-color: #CC9C75;
+    width: 40%;
+    padding-left: 10px;
+    color:#F6FBF4;
+    height: 460px;
+}
+.main-11{
+    background-color: #e8c17dc0;
+    padding: 0 0 0 15px;
+}
+
+.main-11 p {
+    text-indent: 1.5em;
+}
+.footer-11{
+    background-color: #CC9C75;
+    padding: 25px;
+    text-align: center;
+    color:#F6FBF4;
+    text-transform: uppercase;
+}
+/* ----------- Ejercicio 12---------------- */
+.header-12{
+    background-color: #87AAAA;
+    padding: 5px;
+}
+
+h3{
+    color: #F6F6F6;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.section-12{
+    display: flex;
+    margin:0px;
+}
+.section-12 .aside-12{
+    display:inline-block;
+    background-color: #C37B89;
+    padding:5px;
+    width: 20%;
+    height: 500px;
+}
+.section-12 .main-12{
+    display: inline-block;
+    background-color: #BCCC9A;
+    padding: 5px;
+    width: 100%;
+    height: 430px;
+} 
+.extra-content{
+    position:absolute;
+    top: 600px;
+    left:456px;
+    background-color: #FFBF86;
+    width: 900px;
+}
+.extra-content h3 {
+    font-size: 22px;
+}
+.footer-12{
+    background-color: #FC9D9D;
+    padding:5px;
+}
+/* ----------- Ejercicio 13---------------- */
+
+.header-13 img{
+    margin:0px;
+    width: 1080px;
+    height: 110px;
+    border-bottom: 2px solid #66cc33;
+}
+.section-13{
+    position:absolute;
+    top: 165px;
+    margin: 0;
+    padding: 0;
+}
+.aside-13{
+    background-color: #95CD41;
+    position:absolute;
+    width: 170px;
+}
+.aside-13 ul{
+    list-style-type: none;
+    padding:0;
+
+}
+.aside-13 ul li a{
+    display:block;
+    padding: 5px;
+    text-align:left;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding:10px;
+}
+
+.aside-13 a:hover{
+    background-color: #242222;
+}
+.main-13{
+    position:relative;
+    left: 200px;
+    padding:10px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* ----------- Ejercicio 14---------------- */
+.header-14{
+    background-color: #DE8971;
+    padding:10px;
+}
+.section-14{
+    display: flex;
+    margin:0px;
+}
+
+.aside-left-14{
+    background-color: #7B6079;
+    width: 25%;
+    height: 300px;
+}
+.main-14{
+    background-color: #5AA897;
+    width: 50%;
+}
+
+.aside-right-14{
+    background-color: #A3DA8D;
+    width: 25%;
+}
+
+.footer-14{
+    display: flex;
+    justify-content: center;
+    background-color:#8FBDD3;
+}
+
+.box{
+    background-color: #FFCB74;
+    margin:20px;
+    padding:5px 30px 5px 30px;
+}
+
+/* ----------- Ejercicio 15---------------- */
+.header-15{
+    background-color: #151D3B;
+    padding: 10px;
+}
+.header-15 h3{
+    text-align: left;
+}
+.section-15{
+    display:flex;
+}
+.aside-15{
+    background-color: #D82148;
+    width: 20%;
+    height: 500px;
+}
+.box{
+    background-color: #DADBBD;
+    height: 255px;
+    width: 120px;
+    margin:0;
+
+}
+.aside-15 h3{
+    font-size: 20px;
+    padding:5px;
+}
+.main-15{
+    background-color: #6EBF8B;
+    width:100%;
+}
+
+.footer-15{
+    background-color: #F8CB2E;
+    padding:5px;
+}
